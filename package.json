@@ -1,0 +1,18 @@
+{
+  "name": "animalshelter_2024",
+  "version": "1.0.0",
+  "description": "App for Indian Lake Animal Shelter.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "publish":"electron-forge publish"
+  },
+  "keywords": [],
+  "author": "Animal Shelter Group 2024",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/publisher-github": "^7.2.0",
+    "electron": "^28.2.0"
+  }
+}
