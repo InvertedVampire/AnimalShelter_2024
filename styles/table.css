@@ -1,0 +1,440 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 283.3rem;
+}.table-SJw {
+  width: 100%;
+  row-gap: 1.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.table-SJw .row-C3D {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.table-SJw .row-C3D .animal-name-LfD {
+  margin-right: 28.5rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-C3D .breed-G35 {
+  margin-right: 6.4rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-C3D .livestock-animal-Bvj {
+  margin-right: 5.9rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-C3D .gender-7Jb {
+  margin-right: 6.3rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-C3D .spayneuter-FQo {
+  margin-right: 6.2rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-C3D .specialneeds-PX1 {
+  margin-right: 6.1rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-C3D .age-6wD {
+  margin-right: 6.5rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-C3D .reasonforstay-eC3 {
+  margin-right: 6.1rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-C3D .arrivaldate-abV {
+  margin-right: 6.3rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-C3D .intake-KJB {
+  margin-right: 6.4rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-C3D .characteristics-erF {
+  margin-right: 6rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-C3D .euthanasia-aV1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-WNf {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.table-SJw .row-WNf .animal-name-T31 {
+  margin-right: 28.5rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-WNf .breed-PST {
+  margin-right: 6.4rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-WNf .livestock-animal-vSP {
+  margin-right: 5.9rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-WNf .gender-FUf {
+  margin-right: 6.3rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-WNf .spayneuter-zSF {
+  margin-right: 6.2rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-WNf .specialneeds-8HZ {
+  margin-right: 6.1rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-WNf .age-4wu {
+  margin-right: 6.5rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-WNf .reasonforstay-DZu {
+  margin-right: 6.1rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-WNf .arrivaldate-Mg7 {
+  margin-right: 6.3rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-WNf .intake-tvw {
+  margin-right: 6.4rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-WNf .characteristics-Ezo {
+  margin-right: 6rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-WNf .euthanasia-ky9 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-tJf {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.table-SJw .row-tJf .animal-name-qUo {
+  margin-right: 28.5rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-tJf .breed-B2s {
+  margin-right: 6.4rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-tJf .livestock-animal-ujZ {
+  margin-right: 5.9rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-tJf .gender-r91 {
+  margin-right: 6.3rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-tJf .spayneuter-Pej {
+  margin-right: 6.2rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-tJf .specialneeds-vef {
+  margin-right: 6.1rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-tJf .age-TuV {
+  margin-right: 6.5rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-tJf .reasonforstay-c1h {
+  margin-right: 6.1rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-tJf .arrivaldate-wpf {
+  margin-right: 6.3rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-tJf .intake-5R5 {
+  margin-right: 6.4rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-tJf .characteristics-cA7 {
+  margin-right: 6rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.table-SJw .row-tJf .euthanasia-wCP {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}

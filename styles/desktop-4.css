@@ -1,0 +1,116 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 152.3rem;
+}.desktop-4-K9V {
+  box-sizing: border-box;
+  padding-bottom: 19.3rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #000000;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+}
+.desktop-4-K9V .auto-group-kzeb-dvs {
+  width: 155.1rem;
+  height: 17.3rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.desktop-4-K9V .auto-group-kzeb-dvs .assignmentreturnfill0wght400grad0opsz24-1-mnB {
+  width: 1.8rem;
+  height: 2rem;
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  overflow: hidden;
+}
+.desktop-4-K9V .auto-group-kzeb-dvs .rectangle-12-VTH {
+  width: 39.7rem;
+  height: 13.9rem;
+  position: absolute;
+  left: 3.8rem;
+  top: 1rem;
+  background-color: #def3f4;
+}
+.desktop-4-K9V .auto-group-kzeb-dvs .rectangle-18-cno {
+  width: 38.1rem;
+  height: 3.9rem;
+  position: absolute;
+  left: 44.5rem;
+  top: 1rem;
+  background-color: #ffffff;
+}
+.desktop-4-K9V .auto-group-kzeb-dvs .rectangle-17-ke7 {
+  width: 38.1rem;
+  height: 3.9rem;
+  position: absolute;
+  left: 83.6rem;
+  top: 1rem;
+  background-color: rgba(0, 0, 0, 0.200000003);
+}
+.desktop-4-K9V .auto-group-kzeb-dvs .rectangle-7-He3 {
+  width: 20rem;
+  height: 12.4rem;
+  position: absolute;
+  left: 122.7rem;
+  top: 1rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25), 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #def3f4;
+  border-radius: 2.7rem;
+}
+.desktop-4-K9V .auto-group-kzeb-dvs .rectangle-4-ymm {
+  width: 155.1rem;
+  height: 17.3rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25), 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #0cb3be;
+}
+.desktop-4-K9V .auto-group-kzeb-dvs .animal-shelter-1-UiX {
+  width: 25rem;
+  height: 14rem;
+  position: absolute;
+  left: 117rem;
+  top: 1rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.desktop-4-K9V .auto-group-kzeb-dvs .new-animal-DAK {
+  width: 43rem;
+  height: 9.4rem;
+  position: absolute;
+  left: 5rem;
+  top: 3rem;
+  font-size: 8rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: rgba(245, 245, 245, 0.9499999881);
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-4-K9V .rectangle-6-Hvs {
+  width: 153rem;
+  height: 108.7rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25), 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #def3f4;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}

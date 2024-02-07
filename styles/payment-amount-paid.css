@@ -1,0 +1,117 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.payment-amount-paid-jeb {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+}
+.payment-amount-paid-jeb .auto-group-qesd-V7y {
+  margin-bottom: 3rem;
+  box-sizing: border-box;
+  padding: 1.4rem 2rem 1rem 5rem;
+  width: 100%;
+  height: 16.4rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25), 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #0cb3be;
+  flex-shrink: 0;
+}
+.payment-amount-paid-jeb .auto-group-qesd-V7y .payment-bwh {
+  margin: 0rem 80.2rem 0.6rem 0rem;
+  font-size: 8rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: rgba(245, 245, 245, 0.9499999881);
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.payment-amount-paid-jeb .auto-group-qesd-V7y .animal-shelter-1-Jr7 {
+  width: 25rem;
+  height: 14rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.payment-amount-paid-jeb .auto-group-jb1m-mzb {
+  margin: 0rem 4rem 2.6rem 4rem;
+  box-sizing: border-box;
+  padding: 11.9rem 2.7rem 21.9rem 2.7rem;
+  width: calc(100% - 8rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25), 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #def3f4;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.payment-amount-paid-jeb .auto-group-jb1m-mzb .input-amount-paid--g5y {
+  margin: 0rem 102.9rem 0.9rem 0rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.payment-amount-paid-jeb .auto-group-jb1m-mzb .rectangle-10-mdD {
+  margin: 0rem 52.3rem 7.1rem 35.5rem;
+  width: calc(100% - 87.8rem);
+  height: 6.4rem;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.payment-amount-paid-jeb .auto-group-jb1m-mzb .auto-group-cxak-HLf {
+  margin: 0rem 65.3rem 0rem 45.3rem;
+  width: calc(100% - 110.6rem);
+  height: 12.4rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  font-style: italic;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25), 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #def3f4;
+  border-radius: 2.7rem;
+  flex-shrink: 0;
+}
+.payment-amount-paid-jeb .rectangle-5-RrB {
+  width: 100%;
+  height: 16.4rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25), 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #0cb3be;
+  flex-shrink: 0;
+}
