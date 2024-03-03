@@ -11,7 +11,7 @@ form.addEventListener("submit", (e)=> {
     const authenticated = authentication(username,password)
 
     if(authenticated){
-        alert("correct")
+        window.location.replace("homepage.html")
     }else{
         alert("wrong")
     }
