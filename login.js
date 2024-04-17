@@ -1,29 +1,44 @@
-const form = document.querySelector("form")
+const mysql = require("mysql");
+const express = require("express");
+const bodyParser = require("body-parser");
+const encoder = bodyParser.urlencoded();
 
-form.addEventListener("submit", (e)=> {
-    e.preventDefault()
+const app = express();
 
-    const username = form.username.value
-    const password = form.password.value
+const connection = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "basketball1014",
+    database: "animal_shelter"
+});
 
-    console.log(username)
-    console.log(password)
-    const authenticated = authentication(username,password)
+//connect to the database
+connection.connect(function(error){
+    if (error) throw error
+    else console.log("connected to the database")
+});
 
-    if(authenticated){
-        window.location.replace("homepage.html")
-    }else{
-        alert("wrong")
-    }
+app.get("/",function(req,res){
+    res.sendFile(__dirname + "/homepage.html");
 })
 
-//function for checking username and password
+app.post("/",encoder, function(req,res){
+    var username = req.body.username;
+    var password = req.body.password;
+    connection.query("select * from loginuser where user_name=? and user_pass = ?",[username,password],function(error,results,fields){
+        if(results.length > 0){
+            res.redirect("/homepage");
+        } else{
+            res.redirect("/");
+        }
+        res.end();
+    })
+})
 
-function authentication(username,password){
-    if(username === "admin" && password === "password"){
-        return true;
-    }
-    else{
-        return false;
-    }
-}
+//when login is a success
+app.get("/homepage",function(req,res){
+    res.sendFile(__dirname + "/homepage.html")
+})
+
+//set app port
+app.listen(5100);
