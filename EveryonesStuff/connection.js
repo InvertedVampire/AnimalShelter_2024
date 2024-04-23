@@ -1,11 +1,10 @@
 const mysql = require('mysql'); // commandL: npm i mysql
-const dbPassword = ''; //Your Password
 
 // MySQL Connection info
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: dbPassword,
+  password: null,
   database: 'animal_shelter'
 });
 
