@@ -7,7 +7,7 @@ export const Layout: React.FC = () => {
     <div className="mx-auto ">
       <NavBar />
       <div className="py-2 px-6 ">
-        <div className="card mx-auto bg-secondary h-[85vh] shadow-sm">
+        <div className="card flex grid items-center justify-center mx-auto bg-secondary h-[85vh] shadow-sm">
           <div className='card-body'><Outlet /></div>
         </div>
       </div>
