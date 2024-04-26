@@ -1,26 +1,20 @@
-const form = document.querySelector("form")
+const intakenumber = documemt.getElementById('intakenumber')
+const form = document.getElementById('form')
+const errorElement = document.getElementById('error')
 
-form.addEventListener("submit", (e)=>{
-    e.preventDefault()
-
-    const intakenumber = form.intakenumber.value
-
-    console.log(intakenumber)
-    const validation = validate(intakenumber)
-
-    if(validation){
-         window.location.replace("payment.html")
-    }else{
-      alert("wrong")  
+form.addEventListener('submit', (e) =>  {
+    let messages = []
+    if (intakenumber.value === '' || intakenumber == null) {
+        messages.push('Intake Number is required')
     }
 
+    if(messages.length > 0) {
+        e.preventDefault()
+        errorElement.innerText = messages.join(', ')
+    }
 })
 
-function validate(intakenumber){
-    if (intakenumber === "1234") {
-        return true;
-    }
-    else {
-       return false;
-    }
-}
+
+
+
+
