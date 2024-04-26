@@ -29,3 +29,14 @@ This project used a boilerplate for starting up projects with React and Electron
 For more info, visit LICENSE.
 
 Thank you to the lovely people at Electron React Boilerplate!
+
+# Resources
+
+Here is a quick list of resources we used to complete this project.
+
+### APIs
+- [Electron js](https://www.electronjs.org/)
+- [React js](https://react.dev/)
+
+### Run-time Environment
+- [Node js](https://nodejs.org/en)
