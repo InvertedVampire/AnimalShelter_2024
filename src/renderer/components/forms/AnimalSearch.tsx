@@ -41,7 +41,7 @@ export const AnimalSearch: React.FC = () => {
                 <Form>
                     <div>
                     <Field id="name" name="name" placeholder="Enter Animal Name" className="input input-bordered w-full max-w-l"/><br/>
-                    <div className="text-error"><ErrorMessage name="username" /></div>
+                    <div className="text-error"><ErrorMessage name="name" /></div>
                     </div><br/>
                     <button type="submit" className="btn bg-primary text-white">Submit</button>
                 </Form>

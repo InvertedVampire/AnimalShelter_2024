@@ -13,6 +13,7 @@ import { Animal } from './pages/Animal';
 import { Customer } from './pages/Customer/Customer';
 import { CustomerInfo } from './pages/Customer/CustomerInfo';
 import { NewCustomer } from './pages/Customer/NewCustomer';
+import { Payment } from './pages/Payment';
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
           <Route path="/layout/customer" element={<Customer />} />
           <Route path="/layout/customer-info" element={<CustomerInfo />} />
           <Route path="/layout/new-customer" element={<NewCustomer />} />
+          <Route path="/layout/payment" element={<Payment />} />
         </Route>
       </Routes>
     </Router>
