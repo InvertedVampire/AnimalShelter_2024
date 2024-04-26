@@ -1,16 +1,14 @@
-// Animal info page leads to animal page for updating animal information.
+// Animal page allows for updating animal information.
 // also serves as location of front end code.
 import React from 'react';
-import { AnimalSearch } from '../components/forms/AnimalSearch';
 
-
-export const AnimalInfo:React.FC = () => {
+export const Animal:React.FC = () => {
     sessionStorage.setItem('feature', 'animal');
     return (
         <div className="card flex grid items-stretch mx-auto bg-secondary min-h-[550px] h-[85vh] shadow-sm">
             <div className='card-body'>
                 <div><h3 className="card-title text-primary">Animal Information</h3></div><br/><br/>
-                <div className='self-center'><AnimalSearch/></div>
+                <div className='self-center'></div>
             </div>
         </div>
     )

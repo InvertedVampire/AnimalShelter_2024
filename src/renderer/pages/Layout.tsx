@@ -4,13 +4,9 @@ import { NavBar } from '../components/Navbar';
 
 export const Layout: React.FC = () => {
   return (
-    <div className="mx-auto ">
+    <div className="mx-auto overflow-auto min-w-[660px]">
       <NavBar />
-      <div className="py-2 px-6 ">
-        <div className="card flex grid items-center justify-center mx-auto bg-secondary h-[85vh] shadow-sm">
-          <div className='card-body'><Outlet /></div>
-        </div>
-      </div>
+      <div className="py-2 px-6 "><Outlet /></div>
     </div>
   );
 };

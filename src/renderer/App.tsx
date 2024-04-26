@@ -9,6 +9,8 @@ import { Adopt } from './pages/Adopt';
 import { Intake } from './pages/Intake';
 import { Reclaim } from './pages/Reclaim';
 import { AnimalInfo } from './pages/AnimalInfo';
+import { Animal } from './pages/Animal';
+import { Customer } from './pages/Customer/Customer';
 
 export default function App() {
   return (
@@ -20,7 +22,9 @@ export default function App() {
           <Route path="/layout/adopt" element={<Adopt />} />
           <Route path="/layout/intake" element={<Intake />} />
           <Route path="/layout/reclaim" element={<Reclaim />} />
+          <Route path="/layout/animal" element={<Animal />} />
           <Route path="/layout/animal-info" element={<AnimalInfo />} />
+          <Route path="/layout/customer" element={<Customer />} />
         </Route>
       </Routes>
     </Router>
