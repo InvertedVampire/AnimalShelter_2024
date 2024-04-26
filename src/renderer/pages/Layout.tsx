@@ -6,7 +6,9 @@ export const Layout: React.FC = () => {
   return (
     <div className="mx-auto overflow-auto min-w-[660px]">
       <NavBar />
-      <div className="py-2 px-6 "><Outlet /></div>
+      <div className="py-2 px-6 ">
+        <Outlet />
+      </div>
     </div>
   );
 };

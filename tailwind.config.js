@@ -6,15 +6,15 @@ module.exports = {
     themes: [
       {
         mytheme: {
-            "primary": "#0DB4BE",
-            "secondary": "#DEF3F4",
-            "accent": "#5B7485",
-            "neutral": "#0DB4BE",
-            "base-100": "#FFFFFF",
-            "info": "#ACE6F2",
-            "success": "#04D3BC",
-            "warning": "#FFE65B",
-            "error": "#ff0000",
+          primary: '#0DB4BE',
+          secondary: '#DEF3F4',
+          accent: '#5B7485',
+          neutral: '#0DB4BE',
+          'base-100': '#FFFFFF',
+          info: '#ACE6F2',
+          success: '#04D3BC',
+          warning: '#FFE65B',
+          error: '#ff0000',
         },
       },
     ],
@@ -22,5 +22,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require("daisyui")],
+  plugins: [require('daisyui')],
 };

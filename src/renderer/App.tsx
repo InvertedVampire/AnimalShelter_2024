@@ -1,5 +1,5 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
-import "tailwindcss/tailwind.css";
+import 'tailwindcss/tailwind.css';
 
 //importing UI for routing
 import { Login } from './pages/Login';

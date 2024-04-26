@@ -6,12 +6,12 @@ const connection = mysql.createConnection({
   user: 'root',
   password: null,
   database: 'animal_shelter',
-  insecureAuth: true
+  insecureAuth: true,
 });
 
 // Connect to database
 connection.connect((err) => {
-    if (err) throw err;
+  if (err) throw err;
 });
 
 module.exports = connection;
