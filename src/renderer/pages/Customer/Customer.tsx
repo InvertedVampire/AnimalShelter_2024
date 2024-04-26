@@ -4,7 +4,6 @@ import React from 'react';
 import { CustomerSearch } from '../../components/forms/CustomerSearch';
 
 export const Customer:React.FC = () => {
-    sessionStorage.setItem('feature', 'animal');
     return (
         <div className="card flex grid items-stretch mx-auto bg-secondary min-h-[550px] h-[85vh] shadow-sm">
             <div className='card-body'>
