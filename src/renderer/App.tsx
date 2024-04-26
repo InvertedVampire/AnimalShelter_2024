@@ -11,6 +11,8 @@ import { Reclaim } from './pages/Reclaim';
 import { AnimalInfo } from './pages/AnimalInfo';
 import { Animal } from './pages/Animal';
 import { Customer } from './pages/Customer/Customer';
+import { CustomerInfo } from './pages/Customer/CustomerInfo';
+import { NewCustomer } from './pages/Customer/NewCustomer';
 
 export default function App() {
   return (
@@ -25,6 +27,8 @@ export default function App() {
           <Route path="/layout/animal" element={<Animal />} />
           <Route path="/layout/animal-info" element={<AnimalInfo />} />
           <Route path="/layout/customer" element={<Customer />} />
+          <Route path="/layout/customer-info" element={<CustomerInfo />} />
+          <Route path="/layout/new-customer" element={<NewCustomer />} />
         </Route>
       </Routes>
     </Router>

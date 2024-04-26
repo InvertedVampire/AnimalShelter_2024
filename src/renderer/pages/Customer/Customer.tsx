@@ -1,5 +1,5 @@
-// Animal page allows for updating animal information.
-// also serves as location of front end code.
+// Customer search page
+
 import React from 'react';
 
 export const Customer:React.FC = () => {
