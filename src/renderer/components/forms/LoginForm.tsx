@@ -13,7 +13,7 @@ interface LoginFormValues {
 const ValiadtionSchema = yup.object().shape({
     username: yup.string()
         .required('User ID is required')
-        .matches(/[^0-9A-Z]/g, 'Invalid User ID')
+        .matches(/[a-zA-Z0-9]/, 'Invalid User ID')
         .length(6, 'User ID must be 6 characters'),
     password: yup.string()
         .required('Password is required')
@@ -29,7 +29,10 @@ export const LoginForm: React.FC = () => {
 
     //function for handling submit
     const handleSubmit = (values:LoginFormValues) => {
-        
+        //Here is where database method would be called
+        //Selects password where ID = username
+        //If returns nothing then 
+        navigate('/layout/home')
     }
 
     // displays form and uses on change to hold data for validation.
@@ -50,7 +53,6 @@ export const LoginForm: React.FC = () => {
                 </Form>
             </Formik>
         </div>
-        <button className="btn" onClick={() => {navigate('/layout/home')}}>Button</button>
       </div>
     );
   };
