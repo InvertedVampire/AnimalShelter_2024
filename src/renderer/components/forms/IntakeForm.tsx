@@ -8,10 +8,10 @@ interface AnimalValues {
   type: string;
   name: string;
   sex: string;
-  sn: boolean; //Spayed or neutered
-  vax: boolean; //vaccinated or not
+  sn: boolean; // Spayed or neutered
+  vax: boolean; // vaccinated or not
   breed: string;
-  euth: boolean; //can be euthanized
+  euth: boolean; // can be euthanized
   cage: number;
   vet: string;
 }
@@ -36,10 +36,10 @@ export const IntakeForm: React.FC = () => {
     vet: '',
   };
 
-  //function for handling submit
+  // function for handling submit
   const handleSubmit = (values: AnimalValues) => {
-    //Here is where database method would be called
-    //Inserts values into table and move to next page.
+    // Here is where database method would be called
+    // Inserts values into table and move to next page.
 
     // for now
     navigate('/layout/home');

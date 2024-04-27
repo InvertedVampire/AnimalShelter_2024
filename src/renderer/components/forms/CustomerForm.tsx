@@ -1,5 +1,4 @@
 import { Formik, Field, Form, ErrorMessage } from 'formik';
-import PhoneInput from 'react-phone-number-input';
 import { useNavigate } from 'react-router-dom';
 import * as yup from 'yup';
 
@@ -39,10 +38,10 @@ export const CustomerForm: React.FC = () => {
     email: 'joe@gmail.com',
   };
 
-  //function for handling submit
+  // function for handling submit
   const handleSubmit = (values: CustomerValues) => {
-    //Here is where database method would be called
-    //Inserts values into table and move to next page.
+    // Here is where database method would be called
+    // Inserts values into table and move to next page.
 
     // for now
     navigate('/layout/payment');

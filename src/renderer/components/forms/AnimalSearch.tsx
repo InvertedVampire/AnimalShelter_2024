@@ -1,5 +1,4 @@
 import { Formik, Field, Form, ErrorMessage } from 'formik';
-import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import * as yup from 'yup';
 
@@ -22,12 +21,12 @@ export const AnimalSearch: React.FC = () => {
   // initialize variable to hold user input for validation
   const initialValues: AnimalValue = { name: '' };
 
-  //function for handling submit
+  // function for handling submit
   const handleSubmit = (values: AnimalValue) => {
-    //Here is where database method would be called
-    //Selects intake number where name = name
-    //If returns nothing then throw error that animal doesn't exist
-    //Else move to next page.
+    // Here is where database method would be called
+    // Selects intake number where name = name
+    // If returns nothing then throw error that animal doesn't exist
+    // Else move to next page.
     const currentFeature = sessionStorage.getItem('feature');
     if (currentFeature === 'animal') navigate('/layout/animal');
     else navigate('/layout/customer');

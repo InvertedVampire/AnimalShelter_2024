@@ -44,10 +44,10 @@ export const NewCustomerForm: React.FC = () => {
     email: '',
   };
 
-  //function for handling submit
+  // function for handling submit
   const handleSubmit = (values: CustomerValues) => {
-    //Here is where database method would be called
-    //Inserts values into table and move to next page.
+    // Here is where database method would be called
+    // Inserts values into table and move to next page.
 
     // for now
     navigate('/layout/payment');

@@ -1,5 +1,4 @@
 import { Formik, Field, Form, ErrorMessage } from 'formik';
-import PhoneInput from 'react-phone-number-input';
 import { useNavigate } from 'react-router-dom';
 import * as yup from 'yup';
 
@@ -23,12 +22,12 @@ export const CustomerSearch: React.FC = () => {
   // initialize variable to hold user input for validation
   const initialValues: CustomerValue = { phone: '' };
 
-  //function for handling submit
+  // function for handling submit
   const handleSubmit = (values: CustomerValue) => {
-    //Here is where database method would be called
-    //Selects customer where phone = phone
-    //If returns nothing then throw error that customer doesn't exist
-    //Else move to next page.
+    // Here is where database method would be called
+    // Selects customer where phone = phone
+    // If returns nothing then throw error that customer doesn't exist
+    // Else move to next page.
 
     // for now
     const val = values.phone;
