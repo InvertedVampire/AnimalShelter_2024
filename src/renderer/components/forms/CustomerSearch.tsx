@@ -1,5 +1,6 @@
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import { useNavigate } from 'react-router-dom';
+import React from 'react';
 import * as yup from 'yup';
 
 // this interface holds the variable involved in the customer search

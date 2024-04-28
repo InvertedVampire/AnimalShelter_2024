@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import furBabiesImage from '../assets/fur-babies.png';
 
 const NavBar: React.FC = () => {
   return (
@@ -34,12 +35,11 @@ const NavBar: React.FC = () => {
           <div className="w-24 rounded-full">
             <img
               alt="Animal Avatar"
-              src={require('../assets/fur-babies.png')}
+              src={furBabiesImage}
             />
           </div>
         </div>
         <ul
-          tabIndex={0}
           className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 bg-primary"
         >
           <li>

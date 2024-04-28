@@ -3,7 +3,7 @@
 import React from 'react';
 import NewCustomerForm from '../../components/forms/NewCustomerForm';
 
-export const NewCustomer: React.FC = () => {
+const NewCustomer: React.FC = () => {
   return (
     <div className="card flex grid items-stretch mx-auto bg-secondary min-h-[550px] h-[85vh] shadow-sm">
       <div className="card-body">

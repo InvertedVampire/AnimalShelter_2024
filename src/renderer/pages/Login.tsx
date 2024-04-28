@@ -1,9 +1,7 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import LoginForm from '../components/forms/LoginForm';
 
 const Login: React.FC = () => {
-  const navigate = useNavigate();
   return (
     <div
       className="flex grid items-center justify-center h-screen 
