@@ -1,8 +1,8 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import { NavBar } from '../components/Navbar';
+import NavBar  from '../components/Navbar';
 
-export const Layout: React.FC = () => {
+const Layout: React.FC = () => {
   return (
     <div className="mx-auto overflow-auto min-w-[660px]">
       <NavBar />
@@ -12,3 +12,5 @@ export const Layout: React.FC = () => {
     </div>
   );
 };
+
+export default Layout;

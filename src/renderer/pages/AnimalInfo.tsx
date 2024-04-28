@@ -1,9 +1,9 @@
 // Animal info page leads to animal page for updating animal information.
 // also serves as location of front end code.
 import React from 'react';
-import { AnimalSearch } from '../components/forms/AnimalSearch';
+import AnimalSearch from '../components/forms/AnimalSearch';
 
-export const AnimalInfo: React.FC = () => {
+const AnimalInfo: React.FC = () => {
   sessionStorage.setItem('feature', 'animal');
   return (
     <div className="card flex grid items-stretch mx-auto bg-secondary min-h-[550px] h-[85vh] shadow-sm">
@@ -20,3 +20,5 @@ export const AnimalInfo: React.FC = () => {
     </div>
   );
 };
+
+export default AnimalInfo;

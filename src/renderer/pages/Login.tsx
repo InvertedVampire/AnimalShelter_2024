@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { LoginForm } from '../components/forms/LoginForm';
+import LoginForm from '../components/forms/LoginForm';
 
-export const Login: React.FC = () => {
+const Login: React.FC = () => {
   const navigate = useNavigate();
   return (
     <div
@@ -20,3 +20,5 @@ export const Login: React.FC = () => {
     </div>
   );
 };
+
+export default Login;

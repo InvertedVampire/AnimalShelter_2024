@@ -1,9 +1,9 @@
 // Reclaim page handles the requirements for animal reclamation
 // also serves as location of front end code.
 import React from 'react';
-import { AnimalSearch } from '../components/forms/AnimalSearch';
+import AnimalSearch from '../components/forms/AnimalSearch';
 
-export const Reclaim: React.FC = () => {
+const Reclaim: React.FC = () => {
   sessionStorage.setItem('feature', 'reclaim');
   return (
     <div className="card flex grid items-stretch mx-auto bg-secondary min-h-[550px] h-[85vh] shadow-sm">
@@ -20,3 +20,5 @@ export const Reclaim: React.FC = () => {
     </div>
   );
 };
+
+export default Reclaim;

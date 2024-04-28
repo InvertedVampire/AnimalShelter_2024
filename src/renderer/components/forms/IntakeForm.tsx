@@ -19,7 +19,7 @@ interface AnimalValues {
 // defines input validation using yup validation library
 const ValiadtionSchema = yup.object().shape({});
 
-export const IntakeForm: React.FC = () => {
+const IntakeForm: React.FC = () => {
   const navigate = useNavigate();
 
   // initialize variable to hold user input for validation
@@ -149,3 +149,5 @@ export const IntakeForm: React.FC = () => {
     </div>
   );
 };
+
+export default IntakeForm;

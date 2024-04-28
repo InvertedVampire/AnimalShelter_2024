@@ -1,7 +1,7 @@
 // New customer page
 
 import React from 'react';
-import { NewCustomerForm } from '../../components/forms/NewCustomerForm';
+import NewCustomerForm from '../../components/forms/NewCustomerForm';
 
 export const NewCustomer: React.FC = () => {
   return (
@@ -19,3 +19,5 @@ export const NewCustomer: React.FC = () => {
     </div>
   );
 };
+
+export default NewCustomer;

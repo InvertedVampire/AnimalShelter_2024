@@ -1,9 +1,9 @@
 // Adoption page handles the requirements for an adoption
 // also serves as location of front end code.
 import React from 'react';
-import { AnimalSearch } from '../components/forms/AnimalSearch';
+import AnimalSearch from '../components/forms/AnimalSearch';
 
-export const Adopt: React.FC = () => {
+const Adopt: React.FC = () => {
   sessionStorage.setItem('feature', 'adopt');
 
   return (
@@ -21,3 +21,5 @@ export const Adopt: React.FC = () => {
     </div>
   );
 };
+
+export default Adopt;

@@ -27,7 +27,7 @@ const ValiadtionSchema = yup.object().shape({
   email: yup.string().email('Invalid email address'),
 });
 
-export const CustomerForm: React.FC = () => {
+const CustomerForm: React.FC = () => {
   const navigate = useNavigate();
 
   // initialize variable to hold user input for validation
@@ -119,3 +119,5 @@ export const CustomerForm: React.FC = () => {
     </div>
   );
 };
+
+export default CustomerForm;

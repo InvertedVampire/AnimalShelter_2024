@@ -2,7 +2,7 @@ import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
-export const Home: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <div className="card flex grid items-center justify-center mx-auto bg-secondary min-h-[550px] h-[85vh] shadow-sm">
       <div className="card-body">
@@ -17,3 +17,5 @@ export const Home: React.FC = () => {
     </div>
   );
 };
+
+export default Home;

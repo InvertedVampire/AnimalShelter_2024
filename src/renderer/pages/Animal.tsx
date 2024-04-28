@@ -1,9 +1,9 @@
 // Animal page allows for updating animal information.
 // also serves as location of front end code.
 import React from 'react';
-import { IntakeForm } from '../components/forms/IntakeForm';
+import IntakeForm from '../components/forms/IntakeForm';
 
-export const Animal: React.FC = () => {
+const Animal: React.FC = () => {
   sessionStorage.setItem('feature', 'animal');
   return (
     <div className="card flex grid items-stretch mx-auto bg-secondary min-h-[550px] h-[85vh] shadow-sm">
@@ -20,3 +20,5 @@ export const Animal: React.FC = () => {
     </div>
   );
 };
+
+export default Animal;

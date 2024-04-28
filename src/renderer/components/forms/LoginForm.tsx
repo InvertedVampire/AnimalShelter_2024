@@ -22,7 +22,7 @@ const ValiadtionSchema = yup.object().shape({
     .min(8, 'Password is too short'),
 });
 
-export const LoginForm: React.FC = () => {
+const LoginForm: React.FC = () => {
   const navigate = useNavigate();
 
   // initialize variable to hold user input for validation
@@ -86,3 +86,5 @@ export const LoginForm: React.FC = () => {
     </div>
   );
 };
+
+export default LoginForm;

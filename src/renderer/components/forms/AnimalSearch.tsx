@@ -15,7 +15,7 @@ const ValiadtionSchema = yup.object().shape({
     .matches(/[a-zA-Z]/, 'Invalid Animal Name'),
 });
 
-export const AnimalSearch: React.FC = () => {
+const AnimalSearch: React.FC = () => {
   const navigate = useNavigate();
 
   // initialize variable to hold user input for validation
@@ -67,3 +67,5 @@ export const AnimalSearch: React.FC = () => {
     </div>
   );
 };
+
+export default AnimalSearch;

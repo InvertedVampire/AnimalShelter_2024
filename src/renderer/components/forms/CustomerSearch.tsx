@@ -16,7 +16,7 @@ const ValiadtionSchema = yup.object().shape({
     .length(10, 'Invalid phone number'),
 });
 
-export const CustomerSearch: React.FC = () => {
+const CustomerSearch: React.FC = () => {
   const navigate = useNavigate();
 
   // initialize variable to hold user input for validation
@@ -70,3 +70,5 @@ export const CustomerSearch: React.FC = () => {
     </div>
   );
 };
+
+export default CustomerSearch;

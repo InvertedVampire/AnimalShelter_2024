@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export const NavBar: React.FC = () => {
+const NavBar: React.FC = () => {
   return (
     <div className="navbar bg-base-100 bg-primary text-white">
       <div className="flex-1">
@@ -50,3 +50,5 @@ export const NavBar: React.FC = () => {
     </div>
   );
 };
+
+export default NavBar;

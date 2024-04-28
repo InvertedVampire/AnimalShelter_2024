@@ -11,7 +11,7 @@ const AdoptFee: React.FC = () => {
   return <p>Adoption Fee of $25 will be charged.</p>;
 };
 
-export const Payment: React.FC = () => {
+const Payment: React.FC = () => {
   const feature = sessionStorage.getItem('feature');
   const navigate = useNavigate();
 
@@ -81,3 +81,6 @@ export const Payment: React.FC = () => {
     );
   }
 };
+
+
+export default Payment;

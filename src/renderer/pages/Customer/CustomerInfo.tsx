@@ -1,7 +1,7 @@
 // Customer info page
 
 import React from 'react';
-import { CustomerForm } from '../../components/forms/CustomerForm';
+import CustomerForm from '../../components/forms/CustomerForm';
 
 export const CustomerInfo: React.FC = () => {
   return (
@@ -19,3 +19,5 @@ export const CustomerInfo: React.FC = () => {
     </div>
   );
 };
+
+export default CustomerInfo;

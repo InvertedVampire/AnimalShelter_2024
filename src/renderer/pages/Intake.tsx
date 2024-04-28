@@ -1,9 +1,9 @@
 // Intake page handles the requirements for an animal intake.
 // also serves as location of front end code.
 import React from 'react';
-import { IntakeForm } from '../components/forms/IntakeForm';
+import IntakeForm from '../components/forms/IntakeForm';
 
-export const Intake: React.FC = () => {
+const Intake: React.FC = () => {
   return (
     <div className="card flex grid items-stretch mx-auto bg-secondary min-h-[550px] h-[85vh] shadow-sm">
       <div className="card-body">
@@ -19,3 +19,5 @@ export const Intake: React.FC = () => {
     </div>
   );
 };
+
+export default Intake;

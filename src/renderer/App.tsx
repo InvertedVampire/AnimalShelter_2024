@@ -1,19 +1,19 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
 import 'tailwindcss/tailwind.css';
 
-//importing UI for routing
-import { Login } from './pages/Login';
-import { Layout } from './pages/Layout';
-import { Home } from './pages/Home';
-import { Adopt } from './pages/Adopt';
-import { Intake } from './pages/Intake';
-import { Reclaim } from './pages/Reclaim';
-import { AnimalInfo } from './pages/AnimalInfo';
-import { Animal } from './pages/Animal';
-import { Customer } from './pages/Customer/Customer';
-import { CustomerInfo } from './pages/Customer/CustomerInfo';
-import { NewCustomer } from './pages/Customer/NewCustomer';
-import { Payment } from './pages/Payment';
+//  importing UI for routing
+import Login from './pages/Login';
+import Layout from './pages/Layout';
+import Home from './pages/Home';
+import Adopt from './pages/Adopt';
+import Intake from './pages/Intake';
+import Reclaim from './pages/Reclaim';
+import AnimalInfo from './pages/AnimalInfo';
+import Animal from './pages/Animal';
+import Customer from './pages/Customer/Customer';
+import CustomerInfo from './pages/Customer/CustomerInfo';
+import NewCustomer from './pages/Customer/NewCustomer';
+import Payment from './pages/Payment';
 
 export default function App() {
   return (
