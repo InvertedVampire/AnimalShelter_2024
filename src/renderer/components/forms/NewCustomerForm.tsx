@@ -126,5 +126,4 @@ const NewCustomerForm: React.FC = () => {
   );
 };
 
-
 export default NewCustomerForm;
