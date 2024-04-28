@@ -33,15 +33,10 @@ const NavBar: React.FC = () => {
           className="btn btn-ghost btn-circle avatar"
         >
           <div className="w-24 rounded-full">
-            <img
-              alt="Animal Avatar"
-              src={furBabiesImage}
-            />
+            <img alt="Animal Avatar" src={furBabiesImage} />
           </div>
         </div>
-        <ul
-          className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 bg-primary"
-        >
+        <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 bg-primary">
           <li>
             <Link to="/">Logout</Link>
           </li>
