@@ -1,5 +1,6 @@
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import { useNavigate } from 'react-router-dom';
+import React from 'react';
 import * as yup from 'yup';
 
 // this interface holds the variable involved in the new customer form
@@ -45,7 +46,7 @@ const NewCustomerForm: React.FC = () => {
   };
 
   // function for handling submit
-  const handleSubmit = (values: CustomerValues) => {
+  const handleSubmit = () => {
     // Here is where database method would be called
     // Inserts values into table and move to next page.
 

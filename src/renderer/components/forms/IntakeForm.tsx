@@ -1,5 +1,6 @@
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import { useNavigate } from 'react-router-dom';
+import React from 'react';
 import * as yup from 'yup';
 
 // this interface holds the variable involved in the new customer form
@@ -37,7 +38,7 @@ const IntakeForm: React.FC = () => {
   };
 
   // function for handling submit
-  const handleSubmit = (values: AnimalValues) => {
+  const handleSubmit = () => {
     // Here is where database method would be called
     // Inserts values into table and move to next page.
 
@@ -109,7 +110,7 @@ const IntakeForm: React.FC = () => {
               </div>
             </div>
             <div className="form-control">
-              <label className="label cursor-pointer">
+              <label className="label cursor-pointer" htmlFor="type">
                 <span className="label-text font-bold text-accent">
                   Small Animal
                 </span>
@@ -133,7 +134,7 @@ const IntakeForm: React.FC = () => {
               </label>
             </div>
             <div className="form-control">
-              <label className="label cursor-pointer">
+              <label className="label cursor-pointer" htmlFor="sex">
                 <span className="label-text font-bold text-accent">Male</span>
                 <Field
                   type="radio"
@@ -153,7 +154,7 @@ const IntakeForm: React.FC = () => {
               </label>
             </div>
             <div className="form-control">
-              <label className="label cursor-pointer">
+              <label className="label cursor-pointer" htmlFor="sn">
                 <span className="label-text font-bold text-accent">
                   Spayed/Neutered
                 </span>
@@ -164,7 +165,7 @@ const IntakeForm: React.FC = () => {
                   className="checkbox checkbox-accent"
                 />
               </label>
-              <label className="label cursor-pointer">
+              <label className="label cursor-pointer" htmlFor="vax">
                 <span className="label-text font-bold text-accent">
                   Vaccinated
                 </span>
@@ -175,7 +176,7 @@ const IntakeForm: React.FC = () => {
                   className="checkbox checkbox-accent"
                 />
               </label>
-              <label className="label">
+              <label className="label cursor-pointer" htmlFor="euth">
                 <span className="label-text font-bold text-accent">
                   Able to Euthanize
                 </span>
