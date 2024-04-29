@@ -23,7 +23,7 @@ const AnimalSearch: React.FC = () => {
   const initialValues: AnimalValue = { name: '' };
 
   // function for handling submit
-  const handleSubmit = (values: AnimalValue) => {
+  const handleSubmit = () => {
     // Here is where database method would be called
     // Selects intake number where name = name
     // If returns nothing then throw error that animal doesn't exist

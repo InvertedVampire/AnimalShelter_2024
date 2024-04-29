@@ -1,4 +1,5 @@
 import { Formik, Field, Form, ErrorMessage } from 'formik';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import * as yup from 'yup';
 
@@ -29,7 +30,7 @@ const LoginForm: React.FC = () => {
   const initialValues: LoginFormValues = { username: '', password: '' };
 
   // function for handling submit
-  const handleSubmit = (values: LoginFormValues) => {
+  const handleSubmit = () => {
     // Here is where database method would be called
     // Selects password where ID = username
     // If returns nothing then throw error that user doesn't exist

@@ -34,6 +34,7 @@ const Payment: React.FC = () => {
                   <br />
                   <div className="card-actions justify-end">
                     <button
+                      type="button"
                       onClick={() => {
                         navigate('/layout/home');
                       }}
@@ -67,6 +68,7 @@ const Payment: React.FC = () => {
                   <br />
                   <div className="card-actions justify-end">
                     <button
+                      type="button"
                       onClick={() => {
                         navigate('/layout/home');
                       }}
@@ -81,6 +83,9 @@ const Payment: React.FC = () => {
           </div>
         </div>
       );
+    }
+    default: {
+      return;
     }
   }
 };

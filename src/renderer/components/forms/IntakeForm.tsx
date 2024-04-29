@@ -47,8 +47,8 @@ const IntakeForm: React.FC = () => {
 
   // displays form and uses on change to hold data for validation.
   return (
-    <div>
-      <div>
+    <div className="card w-[100vh] bg-base-100 grid ">
+      <div className="card-body">
         <Formik
           initialValues={initialValues}
           onSubmit={handleSubmit}
@@ -56,88 +56,135 @@ const IntakeForm: React.FC = () => {
         >
           <Form>
             <div>
-              <Field
-                id="intake"
-                name="intake"
-                placeholder="Intake Number"
-                className="input input-bordered w-full max-w-l"
-              />
+              <div>
+                <Field
+                  id="intake"
+                  name="intake"
+                  placeholder="Intake Number"
+                  className="input input-bordered w-full max-w-l"
+                />
+                <br />
+                <div className="text-error">
+                  <ErrorMessage name="intake" />
+                </div>
+              </div>
               <br />
-              <div className="text-error">
-                <ErrorMessage name="intake" />
+              <div>
+                <Field
+                  id="name"
+                  name="name"
+                  placeholder="Name"
+                  className="input input-bordered w-full max-w-l"
+                />
+                <br />
+                <div className="text-error">
+                  <ErrorMessage name="name" />
+                </div>
+              </div>
+              <br />
+              <div>
+                <Field
+                  id="breed"
+                  name="breed"
+                  placeholder="Breed"
+                  className="input input-bordered w-full max-w-l"
+                />
+                <br />
+                <div className="text-error">
+                  <ErrorMessage name="breed" />
+                </div>
+              </div>
+              <br />
+              <div>
+                <Field
+                  id="vet"
+                  name="vet"
+                  placeholder="Veterinarian ID"
+                  className="input input-bordered w-full max-w-l"
+                />
+                <br />
+                <div className="text-error">
+                  <ErrorMessage name="vet" />
+                </div>
               </div>
             </div>
-            <br />
-            <div>
-              <Field
-                id="name"
-                name="name"
-                placeholder="Name"
-                className="input input-bordered w-full max-w-l"
-              />
-              <br />
-              <div className="text-error">
-                <ErrorMessage name="name" />
-              </div>
-            </div>
-            <br />
-            <div>
-              <Field
-                id="breed"
-                name="breed"
-                placeholder="Breed"
-                className="input input-bordered w-full max-w-l"
-              />
-              <br />
-              <div className="text-error">
-                <ErrorMessage name="breed" />
-              </div>
-            </div>
-            <br />
-            <div>
-              <Field
-                id="vet"
-                name="vet"
-                placeholder="Email Address"
-                className="input input-bordered w-full max-w-l"
-              />
-              <br />
-              <div className="text-error">
-                <ErrorMessage name="vet" />
-              </div>
-            </div>
-            <div>
-              <label>
-                <Field type="radio" name="picked" value="Small Animal" />
-                Small Animal
-              </label>
-              <label>
-                <Field type="radio" name="picked" value="LiveStock" />
-                Livestock
+            <div className="form-control">
+              <label className="label cursor-pointer">
+                <span className="label-text font-bold text-accent">
+                  Small Animal
+                </span>
+                <Field
+                  type="radio"
+                  id="type"
+                  name="type"
+                  value="Small Animal"
+                  className="radio radio-accent"
+                />
+                <span className="label-text font-bold text-accent">
+                  Livestock
+                </span>
+                <Field
+                  type="radio"
+                  id="type"
+                  name="type"
+                  value="Livestock"
+                  className="radio radio-accent"
+                />
               </label>
             </div>
-            <div>
-              <label>
-                <Field type="radio" name="picked" value="Male" />
-                Male
-              </label>
-              <label>
-                <Field type="radio" name="picked" value="Female" />
-                Female
+            <div className="form-control">
+              <label className="label cursor-pointer">
+                <span className="label-text font-bold text-accent">Male</span>
+                <Field
+                  type="radio"
+                  id="sex"
+                  name="sex"
+                  value="Male"
+                  className="radio radio-accent"
+                />
+                <span className="label-text font-bold text-accent">Female</span>
+                <Field
+                  type="radio"
+                  id="sex"
+                  name="sex"
+                  value="Female"
+                  className="radio radio-accent"
+                />
               </label>
             </div>
-            <div>
-              <label>
-                <Field type="checkbox" id="sn" name="sn" />
-                Spayed/Neutered
+            <div className="form-control">
+              <label className="label cursor-pointer">
+                <span className="label-text font-bold text-accent">
+                  Spayed/Neutered
+                </span>
+                <Field
+                  type="checkbox"
+                  id="sn"
+                  name="sn"
+                  className="checkbox checkbox-accent"
+                />
               </label>
-              <label>
-                <Field type="checkbox" id="vax" name="vax" />
-                Vaccinated
+              <label className="label cursor-pointer">
+                <span className="label-text font-bold text-accent">
+                  Vaccinated
+                </span>
+                <Field
+                  type="checkbox"
+                  id="vax"
+                  name="vax"
+                  className="checkbox checkbox-accent"
+                />
               </label>
-              <label>
-                <Field type="checkbox" id="euth" name="euth" />
-                Liable to Euthanasia
+              <label className="label">
+                <span className="label-text font-bold text-accent">
+                  Able to Euthanize
+                </span>
+                <Field
+                  type="checkbox"
+                  id="euth"
+                  name="euth"
+                  className="checkbox checkbox-accent"
+                />
               </label>
             </div>
             <button type="submit" className="btn bg-primary text-white">

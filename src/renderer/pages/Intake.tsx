@@ -11,7 +11,6 @@ const Intake: React.FC = () => {
           <h3 className="card-title text-primary">Animal Intake</h3>
         </div>
         <br />
-        <br />
         <div className="self-center">
           <IntakeForm />
         </div>

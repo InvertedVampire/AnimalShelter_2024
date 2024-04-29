@@ -1,4 +1,5 @@
 // this holds the configuration for styling with tailwind css
+import daisyui from 'daisyui';
 
 module.exports = {
   content: ['./src/renderer/**/*.{js,jsx,ts,tsx,ejs}'],
@@ -22,5 +23,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require('daisyui')],
+  plugins: [daisyui],
 };

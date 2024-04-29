@@ -40,7 +40,7 @@ const CustomerForm: React.FC = () => {
   };
 
   // function for handling submit
-  const handleSubmit = (values: CustomerValues) => {
+  const handleSubmit = () => {
     // Here is where database method would be called
     // Inserts values into table and move to next page.
 
