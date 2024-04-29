@@ -7,12 +7,7 @@ const ReclaimFee: React.FC = () => {
   return <p>Reclaim Fee of $45 will be charged.</p>;
 };
 
-const AdoptFee: React.FC = () => {
-  return <p>Adoption Fee of $25 will be charged.</p>;
-};
-
 const Payment: React.FC = () => {
-  const feature = sessionStorage.getItem('feature');
   const navigate = useNavigate();
 
   return (
