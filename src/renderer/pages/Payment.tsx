@@ -85,7 +85,7 @@ const Payment: React.FC = () => {
       );
     }
     default: {
-      return;
+      
     }
   }
 };
